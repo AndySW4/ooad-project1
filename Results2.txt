@@ -1,0 +1,38 @@
+andy_wood@moritaniandoryusatoshinoMacBook-Pro OOAD_project1 % cd "/Users/andy_wood/OOAD_project1/" && javac Program2.java && java Program2
+Enter 6 words (press <Enter> after each):
+printer
+planet
+apple
+August
+happily
+game
+
+Enter 6 clues (press <Enter> after each):
+Office ink machine   
+Orbits a star
+red fruit
+Eighth calendar month
+Joyful manner
+Competitive pastime
+
+=== Tokens ===
+AU  TER GU  PR  
+PLE ILY AP  PL  
+AN  PP  GA  HA  
+ME  IN  ET  ST  
+
+=== Clues ===
+1. Office ink machine
+2. Orbits a star
+3. red fruit
+4. Eighth calendar month
+5. Joyful manner
+6. Competitive pastime
+
+=== Answer Key ===
+PRINTER
+PLANET
+APPLE
+AUGUST
+HAPPILY
+GAME

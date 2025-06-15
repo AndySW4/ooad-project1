@@ -1,0 +1,32 @@
+andy_wood@moritaniandoryusatoshinoMacBook-Pro OOAD_project1 % javac Program1.java   
+andy_wood@moritaniandoryusatoshinoMacBook-Pro OOAD_project1 % java Program1
+
+=== Random-Number Generator Comparison ===
+(Press <Enter> on an empty line to quit)
+
+Enter number of random values to generate: 10
++--------------------+-----------------+-----------------+-------------+-------------+
+| Generator          | Mean            | Std Deviation   | Min         | Max         |
++--------------------+-----------------+-----------------+-------------+-------------+
+| java.util.Random   |  0.540463243350 |  0.269524773695 |  0.13979740 |  0.92521286 |
+| Math.random()      |  0.502543081106 |  0.292464717614 |  0.01766228 |  0.96362619 |
+| ThreadLocalRandom  |  0.509466237796 |  0.304485099950 |  0.06332473 |  0.91880838 |
+
+Enter number of random values to generate: 100
++--------------------+-----------------+-----------------+-------------+-------------+
+| Generator          | Mean            | Std Deviation   | Min         | Max         |
++--------------------+-----------------+-----------------+-------------+-------------+
+| java.util.Random   |  0.495752915185 |  0.285646502132 |  0.00445113 |  0.97298268 |
+| Math.random()      |  0.439610991231 |  0.273023347796 |  0.00761164 |  0.99885485 |
+| ThreadLocalRandom  |  0.516985557791 |  0.313311314704 |  0.02560497 |  0.99866010 |
+
+Enter number of random values to generate: 1000
++--------------------+-----------------+-----------------+-------------+-------------+
+| Generator          | Mean            | Std Deviation   | Min         | Max         |
++--------------------+-----------------+-----------------+-------------+-------------+
+| java.util.Random   |  0.515071522970 |  0.289329167400 |  0.00112017 |  0.99866954 |
+| Math.random()      |  0.498523762606 |  0.289682695329 |  0.00193811 |  0.99808788 |
+| ThreadLocalRandom  |  0.497796241747 |  0.288838199309 |  0.00042516 |  0.99976961 |
+
+Enter number of random values to generate: 
+Good-bye!
